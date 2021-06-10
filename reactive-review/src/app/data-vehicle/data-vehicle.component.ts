@@ -15,6 +15,7 @@ export class DataVehicleComponent implements OnInit {
     this.service.getData().subscribe(data => {
       console.log(data);
       this.vehicledata=data;
+      console.log(data);
     })
   
   }
